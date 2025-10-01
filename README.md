@@ -1,16 +1,40 @@
-# layout_flutter
+# 📱 Praktikum Flutter — Layout dan Navigasi  
 
-A new Flutter project.
+**Mata Kuliah:** Pemrograman Mobile  
+**Dosen Pengampu:** Ade Ismail, S.Kom., M.TI  
+**Nama:** Alfin Afriansyah  
+**NIM:** 2341760089  
+**Kelas:** SIB 3C  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Praktikum 1: Membangun Layout di Flutter
+- Membuat project `layout_flutter` dengan **VS Code**.  
+- Implementasi title row.  
 
-A few resources to get you started if this is your first Flutter project:
+📷 **Screenshot:**  
+![Praktikum 1](images/titlerow.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📌 Praktikum 2: Implementasi button row
+- Menambahkan button row ke aplikasi flutter.  
+
+📷 **Screenshot:**  
+![Praktikum 2](images/buttonrow.png)
+
+---
+
+## 📌 Praktikum 3: Implementasi text section
+- Membuat widget textSection.  
+
+📷 **Screenshot:**  
+![Praktikum 3](images/textsection.png)
+
+---
+
+## 📌 Praktikum 4: Implementasi image section
+- Menambahkan image section.  
+
+📷 **Screenshot:**  
+![Praktikum 4](images/imagesection.png)  
