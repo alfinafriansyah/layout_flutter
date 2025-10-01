@@ -53,6 +53,23 @@ class MyApp extends StatelessWidget {
         _buildButtonColumn(color, Icons.share, 'SHARE'),
       ],
     );
+
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Nama: Alfin Afriansyah\n'
+        'NIM: 2341760089\n\n'
+        'JLS Tulungagung adalah bagian dari Jalur Lintas Selatan (JLS), '
+        'sebuah proyek infrastruktur strategis yang membentang di pesisir selatan Pulau Jawa'
+        'untuk meningkatkan konektivitas antarwilayah. Di Tulungagung, '
+        'JLS menawarkan jalur dengan pemandangan indah berupa laut biru dan bukit hijau, '
+        'menjadikannya destinasi wisata populer untuk turing dan relaksasi keluarga. '
+        'JLS Tulungagung menghubungkan kabupaten-kabupaten di sekitarnya dan memungkinkan akses '
+        'ke berbagai pantai eksotis seperti Pantai Sine, Pantai Pacar, dan Pantai Gemah. ',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
@@ -63,6 +80,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
